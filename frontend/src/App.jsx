@@ -1,6 +1,6 @@
 import Login from "./pages/Login";
-import Home from "./pages/home";
-import Register from "./pages/register";
+import Home from "./pages/Home";
+import Register from "./pages/Register";
 import { useState,useEffect } from "react";
 import { BrowserRouter as Router,Routes,Route } from "react-router-dom";
 import { AuthProvider } from '../context/AuthContext.jsx';
