@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-const API_BASE_URL = "http://localhost:5000/api";
+const API_BASE_URL = "http://localhost:10000/api";
 
 // const DEFAULT_PROJECTS = [
 //   { id: "website-redesign", name: "Website Redesign", color: "#6366F1" },

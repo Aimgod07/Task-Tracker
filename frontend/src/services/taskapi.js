@@ -2,7 +2,7 @@
 import axios from "axios";
 
 const API = axios.create({
-    baseURL: "http://localhost:5000/api",
+    baseURL: "http://localhost:10000/api",
     withCredentials: true,
 });
 
@@ -35,7 +35,7 @@ export const loginUser = (userData) => {
 };
 
 
-const API_BASE_URL = 'http://localhost:5000';
+const API_BASE_URL = 'http://localhost:10000';
 
 export const getTasks = async (params = {}) => {
   try {
